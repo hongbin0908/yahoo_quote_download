@@ -107,4 +107,5 @@ def load_yahoo_quote(ticker, begindate, enddate, info = 'quote'):
 	f = urllib.request.urlopen(req)
 	alines = f.read().decode('utf-8')
 	#print(alines)
-	return alines.split('\n')
+	#return alines.split('\n')
+	return alines
